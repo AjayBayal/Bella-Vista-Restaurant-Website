@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bella Vista - Authentic Italian Restaurent serving fresh pasta, wood-fired pizzas, and traditional Italian cuisine in the heart of the city">
+    <title>Bella Vista Restaurent - Authentic Italian Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== Navbar =====-->
+    <header class="header">
+        <div class="container">
+
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Bella Vista</h1>
+                    <span class="tagline">Authentic Italine Cuising</span>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- ===== Hero Section =====-->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+                <h2 class="hero-title">Welcome to Bella Vista</h2>
+                <p class="hero-subtitle">Experience the authentic taste of Italy in the heart of the city.</p>
+                <div class="hero-btn">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-secondary">Make Reservation</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===== Menu Section ===== -->
+        <section class="menu" id="menu">
+
+            <div class="container">
+                <h2 class="section-title animate">Our Menu</h2>
+                <p class="section-subtitle">Discover our carefully crafted dishes.</p>
+
+                <div class="menu-categories">
+                    <div class="menu-category">
+                        <h3 class="menu-category-appe">Appetizers</h3>
+                        <div class="menu-items">
+                            <!--Item 1-->
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Bruschetta Italiana</h4>
+                                    <p>Fresh tomatoes, basil and mozzarella on toasted bread</p>
+                                </div>
+                                <span class="price">$11.99</span>
+                            </div>
+                            <!--Item 2-->
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Antipasto Plateter</h4>
+                                    <p>Selection of cured meat, cheeses and marinated vagetables.</p>
+                                </div>
+                                <span class="price">$14.99</span>
+                            </div>
+                            <!--Item 3-->
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Caprese Salad</h4>
+                                    <p>Fresh mozzarella, tomatoes, basil and balsamic glaze.</p>
+                                </div>
+                                <span class="price">$12.99</span>
+                            </div>
+                            <!--Item 4-->
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Garlic Bread Supreme</h4>
+                                    <p>Toasted bread with garlic butter, herbs and melted cheese.</p>
+                                </div>
+                                <span class="price">$9.99</span>
+                            </div>
+                            <!--Item 5-->
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Stuffed Mushrooms</h4>
+                                    <p>Button mushrooms filled with cheese, herbs and breadcrumbs.</p>
+                                </div>
+                                <span class="price">$13.49</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== About Section ===== -->
+
+        <section id="about" class="about">
+
+            <div class="container">
+                <h2 class="section-title animate">About Bella Vista</h2>
+                <div class="about-content">
+
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Founded in 1985 by the Rossi Family, Bella Vista has been serving authentic Italian cuisine
+                            for over three decades. Our passion for traditional recipes and fresh ingredients has made
+                            us a beloved destination for food lovers.</p>
+
+                        <p>Every dish is prepared with love and attention to detail, using recipes passed down through
+                            generations of Italian chefs.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="src/about-us.png" alt="Restaurent Interior">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Contact Us Section-->
+
+        <section id="contact" class="contact">
+
+            <div class="container">
+
+                <h2 class="section-title animate">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>263, Gandhi Path, Vaishali Nagar, Jaipur, IN 302021</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>info@bellavista.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Make a Reservation</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name:</label>
+                                <input type="text" name="name" id="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">Reservation Date:</label>
+                                <input type="date" name="date" id="date" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Time:</label>
+                                <select name="time" id="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="18:00">06:00 PM</option>
+                                    <option value="19:00">07:00 PM</option>
+                                    <option value="20:00">08:00 PM</option>
+                                    <option value="21:00">09:00 PM</option>
+                                    <option value="22:00">10:00 PM</option>
+                                </select>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="guest">Number of Guest:</label>
+                                <select name="guest" id="guest" required>
+                                    <option value="">Select Guests</option>
+                                    <option value="1">1-2 Guests</option>
+                                    <option value="2">2-4 Guests</option>
+                                    <option value="5">5+ Guests</option>
+                                </select>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="message">Special Request:</label>
+                                <textarea name="message" id="message" rows="4"
+                                    placeholder="Any special dietary requirements or request..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit Reservation</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===== Footer Section ===== -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+
+                    <div class="footer-section">
+                        <h3>Bella Vista</h3>
+                        <p>Authentic Italian cuisine in the heart oof the city. Experience the taste of Italy with every
+                            bite.</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Quick Linsk</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Opening Hours</h4>
+                        <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
+                        <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
+                        <p>Sunday : 12:00 PM - 09:00 PM</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Facebook</a>
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">&copy; Bella Vista Restuarent, All Rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
